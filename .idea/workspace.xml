@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377a3f69-c0e1-4b86-9c8f-2a03149ff460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS.13.02-Lab-2.3.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CISQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CISQueueTest.java" afterDir="false" />
+    <list default="true" id="377a3f69-c0e1-4b86-9c8f-2a03149ff460" name="Changes" comment="finished lab?">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CISQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CISQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CISQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CISQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +40,13 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20231121_0001",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,10 +57,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CISQueueTest.testToString">
+  <component name="RunManager" selected="JUnit.CISQueueTest.dequeue">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CS.13.02-Lab-2.3.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CISQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.13.02-Lab-2.3.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CISQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,16 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CISQueueTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS.13.02-Lab-2.3.1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CISQueueTest" />
-      <option name="METHOD_NAME" value="isEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CISQueueTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.13.02-Lab-2.3.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CISQueueTest.dequeue" />
         <item itemvalue="JUnit.CISQueueTest.testToString" />
+        <item itemvalue="JUnit.CISQueueTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CISQueueTest.enqueue" />
-        <item itemvalue="JUnit.CISQueueTest.dequeue" />
-        <item itemvalue="JUnit.CISQueueTest.isEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished lab?" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lab?" />
   </component>
 </project>
